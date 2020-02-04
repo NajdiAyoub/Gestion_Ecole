@@ -12,10 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    if (auth()->user() == null) {
+        return view('/auth/login');
+    } else {
+        return view('home');
+    }
 });
 
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('admin/home', 'HomeController@adminHome')->name('admin.home')->middleware('IsAdmin');
 
+Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
+Auth::routes();

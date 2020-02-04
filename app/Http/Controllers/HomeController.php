@@ -23,11 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
+        if (auth()->user()["is_admin"] == 1) {
+            return view('layouts.adminHome');
+        }
         return view('home');
     }
- public function adminHome(){
-     return view('adminHome');
-
- }
 
 }
