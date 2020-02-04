@@ -14,5 +14,8 @@ class DatabaseSeeder extends Seeder
         DB::table('users')->where('email', 'najdiayoub68@gmail.com')->update(['password' => '789']);
 
         $this->call(CreateUsersSeeder::class);
+        $this->call(UpdateUsersSeeder::class);
+
+        
     }
 }
