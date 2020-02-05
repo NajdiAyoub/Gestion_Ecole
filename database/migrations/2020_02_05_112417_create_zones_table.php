@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAttachementsTable extends Migration
+class CreateZonesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,10 @@ class CreateAttachementsTable extends Migration
      */
     public function up()
     {
-        Schema::create('attachements', function (Blueprint $table) {
+        Schema::create('zones', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('libelle');
-            $table->string('type');
-            $table->date('date_attach');
-
-            
-
-
+            $table->string('description');
 
             $table->timestamps();
         });
@@ -34,6 +29,6 @@ class CreateAttachementsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('attachements');
+        Schema::dropIfExists('zones');
     }
 }

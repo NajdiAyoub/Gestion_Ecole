@@ -15,13 +15,16 @@ class CreateCoursElevesTable extends Migration
     {
         Schema::create('cours_eleves', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('title');
+            $table->string('description');
+            $table->date('date_attach');
             $table->unsignedBigInteger('semestres_id');
             $table->unsignedBigInteger('matieres_id');
-            $table->unsignedBigInteger('classes_id');
             $table->unsignedBigInteger('profs_id');
             $table->foreign('semestres_id')->references('id')->on('semestres');
             $table->foreign('matieres_id')->references('id')->on('matieres');
-            $table->foreign('classes_id')->references('id')->on('classes');
+
+         
             $table->foreign('profs_id')->references('id')->on('profs');
 
 

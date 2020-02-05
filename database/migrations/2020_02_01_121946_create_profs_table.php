@@ -23,6 +23,9 @@ class CreateProfsTable extends Migration
             $table->string('tel');
             $table->string('email');
             $table->string('rib');
+            $table->string('type_contrat');
+            $table->integer('salaire');
+            $table->float('montant_par_Heure');
             $table->string('login');
             $table->string('password');
 

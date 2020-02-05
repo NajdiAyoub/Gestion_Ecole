@@ -22,10 +22,14 @@ class CreateExamsTable extends Migration
             $table->unsignedBigInteger('profs_id');
             $table->unsignedBigInteger('matieres_id');
             $table->unsignedBigInteger('classes_id');
+            $table->unsignedBigInteger('salles_id');
+
 
             $table->foreign('profs_id')->references('id')->on('profs');
             $table->foreign('matieres_id')->references('id')->on('matieres');
             $table->foreign('classes_id')->references('id')->on('classes');
+            $table->foreign('salles_id')->references('id')->on('salles');
+
 
 
 
