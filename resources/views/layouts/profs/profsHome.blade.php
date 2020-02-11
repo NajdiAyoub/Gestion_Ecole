@@ -1,12 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
+<link rel="stylesheet"  href="Style.css">
 <center>
 <div class="topnav">
-  <strong><em><a class="active" href="#home">Emplois</a></em></strong>
-   <strong><em><a href="#news">Bulletins et Notes</a></em></strong>
-    <strong><em><a href="#contact">Cours</a></em></strong>
-    <strong><em><a href="#about">Evenements</a></em></strong>
+  <strong><em><a class="active" href="#home">Classes</a></em></strong>
+  <strong><em><a href="#news">Absences</a></em></strong>
+
+   <strong><em><a href="#news">Emplois Du Temps</a></em></strong>
+   
+
+    <strong><em><a href="#contact">Paiements</a></em></strong>
+    <strong><em><a href="#about">Cours</a></em></strong>
   </div>
 </center>
 <div class="container">
