@@ -21,4 +21,6 @@ Route::get('/', function () {
 
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
+Route::get('/profsHome', 'ProfsHomeController@index')->name('profsHome')->middleware('auth');
+
 Auth::routes();

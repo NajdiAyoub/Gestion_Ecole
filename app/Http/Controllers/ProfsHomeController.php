@@ -23,19 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if (auth()->user()["Role"] == 1) {
-            return view('layouts.personnels.personnelsHome');
+        if (auth()->user()["Role"] == 3) {
+            return view('layouts.profsHome');
         }
-       
-    if (auth()->user()["Role"] == 2) {
-        return view('layouts.eleves.Home');
+        return view('profsHome');
     }
-    
-if (auth()->user()["Role"] == 3) {
-    return view('layouts.profs.profsHome');
-}
-}
-
-
 
 }

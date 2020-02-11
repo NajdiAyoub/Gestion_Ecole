@@ -11,7 +11,7 @@ class UpdateUsersSeeder extends Seeder
      */
     public function run()
     {
-       DB::table('users')->where('email', 'najdiayoub68@gmail.com')->update(['password' => '789']);
+      // DB::table('users')->where('email', 'najdiayoub68@gmail.com')->update(['password' => '789']);
 
     }
 }
