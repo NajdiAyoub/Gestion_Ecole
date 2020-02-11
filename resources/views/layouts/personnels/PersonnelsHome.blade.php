@@ -22,17 +22,17 @@
 <center>
 <button class="accordion">Espaces Profs</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>Put a SubMenu For TeacherSpace..</p>
 </div>
 
 <button class="accordion">Espaces Eleves</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>Put a SubMenu For StudentSpace..</p>
 </div>
 
 <button class="accordion">Affectations</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>Put a SubMenu For Delegate..</p>
 </div>
 </center>
 <script>
