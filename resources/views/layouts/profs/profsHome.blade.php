@@ -18,7 +18,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <center><em><strong><mark><div class="card-header">Dashboard</div></center></em></strong></mark>
                 <div class="card-body">
                 <center><strong><mark>Bienvenue Sur La Platforms Profs</mark></strong></center>
                 </div>

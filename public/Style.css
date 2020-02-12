@@ -34,11 +34,12 @@
   }
 
   #menu-accordeon {
-    padding-top:50px;
+    padding-top:70px;
     margin:0;
     list-style:none;
     text-align: center;
-    width: 300px;
+    width: 1000px;
+    
   
   }
   #menu-accordeon ul {
@@ -48,9 +49,9 @@
     text-align: center;
   }
   #menu-accordeon li {
-     background-color:#729EBF; 
-     background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-     background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+     background-color:black; 
+     background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+     background-image: linear-gradient(to bottom, black 0%, #333A40 100%);
      border-radius: 6px;
      margin-bottom:2px;
      box-shadow: 3px 3px 3px #999;

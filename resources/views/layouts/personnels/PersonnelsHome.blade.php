@@ -11,7 +11,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+             <center><em><strong><mark><div class="card-header">Dashboard</div></mark></strong></em></center>
                 <div class="card-body">
              <center><strong><mark><em>Welcome Administrator<em></mark></strong></center>
                 </div>
@@ -21,28 +21,26 @@
 </div>
 <center>
   <ul id="menu-accordeon">
-    <li><a href="#">EspacesProfs</a>
+    <li><a href="#">EspacesProfs</a></br>
        <ul>
           <li><a href="#">GestionAbsencesProfs</a></li>
           <li><a href="#">GestionPaiementsProfs</a></li>
           <li><a href="#">GestionEmploisProfs</a></li>
-          <li><a href="#">lien sous menu 1</a></li>
        </ul>
     </li>
-     <li><a href="#">EspacesEleves</a>
+     <li><a href="#">EspacesEleves</a></br>
        <ul>
-          <li><a href="#">Lien sous menu 2</a></li>
-          <li><a href="#">Lien sous menu 2</a></li>
-          <li><a href="#">Lien sous menu 2</a></li>
-          <li><a href="#">Lien sous menu 2</a></li>
+          <li><a href="#">GestionAbsencesEleves</a></li>
+          <li><a href="#">GestionEmploisEleves</a></li>
+          <li><a href="#">GestionPaiementsEleves</a></li>
        </ul>
     </li>
-    <li><a href="#">EspacesAffectations</a>
+    <li><a href="#">EspacesAffectations</a></br>
        <ul>
-          <li><a href="#">Lien sous menu 3</a></li>
-          <li><a href="#">Lien sous menu 3</a></li>
-          <li><a href="#">Lien sous menu 3</a></li>
-          <li><a href="#">Lien sous menu 3</a></li>
+          <li><a href="#">AffectationsProfsMatieres</a></li>
+          <li><a href="#">AffectationsClassesExams</a></li>
+          <li><a href="#">AffectationsEmplois</a></li>
+          <li><a href="#">GestionsEvenements</a></li>
        </ul>
     </li>
  </ul>
