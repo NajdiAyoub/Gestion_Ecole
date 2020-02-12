@@ -19,31 +19,47 @@
         </div>
     </div>
 </div>
-<center>
-  <ul id="menu-accordeon">
-    <li><a href="#">EspacesProfs</a></br>
-       <ul>
-          <li><a href="#">GestionAbsencesProfs</a></li>
-          <li><a href="#">GestionPaiementsProfs</a></li>
-          <li><a href="#">GestionEmploisProfs</a></li>
-       </ul>
-    </li>
-     <li><a href="#">EspacesEleves</a></br>
-       <ul>
-          <li><a href="#">GestionAbsencesEleves</a></li>
-          <li><a href="#">GestionEmploisEleves</a></li>
-          <li><a href="#">GestionPaiementsEleves</a></li>
-       </ul>
-    </li>
-    <li><a href="#">EspacesAffectations</a></br>
-       <ul>
-          <li><a href="#">AffectationsProfsMatieres</a></li>
-          <li><a href="#">AffectationsClassesExams</a></li>
-          <li><a href="#">AffectationsEmplois</a></li>
-          <li><a href="#">GestionsEvenements</a></li>
-       </ul>
-    </li>
- </ul>
-</center>
+
+<div id="sidebar-wrapper">
+  <div class="side-top">
+      <ul class="sidebar-nav">
+          <li><a class="active" href="">Home</a>
+          </li>
+          <li><a href="">Espaces Profs</a>
+              <ul>
+                      <li><a href="#">Absences</a></li>
+                      <li><a href="#">Emplois</a></li>
+                      <li><a href="#">Paiements</a></li>
+              </ul>
+          </li>
+          <li><a href="">Espaces Eleves</a>
+              <ul>
+                      <li><a href="#">Absences</a></li>
+                      <li><a href="#">Emplois</a></li>
+                      <li><a href="#">Paiements</a></li>
+                      
+              </ul>
+          </li>
+          <li><a href="">Affectations</a>
+              <ul>
+                      <li><a href="#">Profs Matieres</a></li>
+                      <li><a href="#">Classes Exams</a></li>
+                      <li><a href="#">Evenements</a></li>
+                      
+              </ul>
+          </li>
+          <li><a href="">Parametre</a>
+              <ul>
+                      <li><a href="#">Annee Scolaire</a></li>
+                      <li><a href="#">Niveaux</a></li>
+                      <li><a href="#">Filieres</a></li>
+                      <li><a href="#">Classes</a></li>
+                      <li><a href="#">Role</a></li>
+              </ul>
+          </li>
+      </ul>
+  </div>
+</div>
+
 
 @endsection
